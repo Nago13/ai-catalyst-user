@@ -10,12 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <!-- Top Banner -->
     <div class="top-banner">
-        <p>Descubra qual IA pode multiplicar sua produtividade hoje</p>
+        <p>Descubra qual IA é ideal para você e como implementar na sua empresa</p>
     </div>
     
     <!-- Navigation -->
@@ -27,7 +26,8 @@
             </a>
             <div class="nav-links">
                 <a href="#diagnostico">Diagnóstico</a>
-                <a href="#insights">Insights</a>
+                <a href="#casos-uso">Casos de Uso</a>
+                <a href="#implementar">Como Implementar</a>
                 <a href="#blog">Blog</a>
             </div>
         </div>
@@ -47,14 +47,14 @@
         <div class="hero-content">
             <div class="hero-badge">
                 <span class="pulse"></span>
-                <span>95% das empresas têm ROI zero em IA</span>
+                <span>Você já usa IA ou quer começar?</span>
             </div>
             <h1 class="hero-title">
-                Sua empresa está <span class="gradient-text">voando às cegas</span> na revolução da IA
+                Descubra qual IA vai <span class="gradient-text">transformar seu trabalho</span> e como apresentar na sua empresa
             </h1>
             <p class="hero-subtitle">
-                Bilhões investidos. Zero métricas. Enquanto sua empresa demora para agir,<br>
-                <strong>você pode assumir o controle</strong> da sua produtividade hoje.
+                Enquanto sua empresa demora para agir, <strong>você pode começar hoje</strong>.<br>
+                Use ferramentas de IA para multiplicar sua produtividade e mostre resultados que falam por si.
             </p>
             <div class="hero-cta">
                 <a href="#diagnostico" class="btn btn-primary">
@@ -63,22 +63,22 @@
                         <path d="M5 12h14M12 5l7 7-7 7"/>
                     </svg>
                 </a>
-                <a href="#insights" class="btn btn-secondary">Ver dados do mercado</a>
+                <a href="#casos-uso" class="btn btn-secondary">Ver casos de uso práticos</a>
             </div>
             <div class="hero-stats">
                 <div class="stat">
-                    <span class="stat-number">$644B</span>
-                    <span class="stat-label">Investimento global em IA (2025)</span>
+                    <span class="stat-number">10x</span>
+                    <span class="stat-label">Mais rápido em tarefas repetitivas</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat">
-                    <span class="stat-number">375M</span>
-                    <span class="stat-label">Empregos em transição até 2030</span>
+                    <span class="stat-number">5h</span>
+                    <span class="stat-label">Economizadas por semana em média</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat">
-                    <span class="stat-number">63%</span>
-                    <span class="stat-label">Empresas sem habilidades de IA</span>
+                    <span class="stat-number">87%</span>
+                    <span class="stat-label">Dos profissionais já usam IA</span>
                 </div>
             </div>
         </div>
@@ -88,164 +88,236 @@
         </div>
     </header>
 
-    <!-- Insights Section -->
-    <section class="problem-section" id="insights">
+    <!-- Casos de Uso Section -->
+    <section class="problem-section" id="casos-uso">
         <div class="container">
-            <!-- Descoberta Section -->
-            <div class="insight-section">
-                <div class="insight-content">
-                    <div class="insight-tag">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="10"/>
-                            <path d="M12 6v6l4 2"/>
-                        </svg>
-                        <span>DESCOBERTA</span>
-                    </div>
-                    <h2 class="insight-title">
-                        Descubra como suas equipes <span class="gradient-text">usam IA</span>
-                    </h2>
-                    <p class="insight-description">
-                        Categorizamos o que as pessoas estão fazendo com IA, como pesquisa, criação de conteúdo, automação de workflows e muito mais. Essa categorização mostra onde suas iniciativas de IA estão gerando resultados.
-                    </p>
-                    <ul class="insight-bullets">
-                        <li>Identifique padrões de uso em diferentes departamentos</li>
-                        <li>Otimize investimentos baseado em dados reais</li>
-                        <li>Descubra oportunidades inexploradas</li>
-                    </ul>
-                </div>
-                <div class="insight-chart">
-                    <canvas id="discoveryChart"></canvas>
-                </div>
+            <div class="section-header">
+                <span class="section-tag">Casos de Uso Reais</span>
+                <h2 class="section-title">Veja como profissionais estão usando <span class="gradient-text">IA no dia a dia</span></h2>
+                <p class="section-subtitle">
+                    Exemplos práticos de como colegas estão multiplicando sua produtividade com ferramentas de IA.
+                </p>
             </div>
 
-            <!-- Competência Section -->
-            <div class="insight-section">
-                <div class="insight-content">
-                    <div class="insight-tag">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M3 3v18h18"/>
-                            <path d="M18 17V9M13 17V5M8 17v-3"/>
+            <div class="use-cases-grid">
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/>
                         </svg>
-                        <span>COMPETÊNCIA</span>
                     </div>
-                    <h2 class="insight-title">
-                        Entenda a competência de IA <span class="gradient-text">das suas equipes</span>
-                    </h2>
-                    <p class="insight-description">
-                        Melhore a Maturidade de IA. Combinamos uso, competência e sentimento para gerar AI Maturity Scores ao longo do tempo, fornecendo aos líderes medidas claras, comparáveis e consistentes de adoção e impacto entre equipes.
-                    </p>
-                    <ul class="insight-bullets">
-                        <li>Acompanhe evolução por departamento</li>
-                        <li>Compare performance entre times</li>
-                        <li>Identifique áreas que precisam de suporte</li>
-                    </ul>
+                    <h3>Relatórios e Documentos</h3>
+                    <p class="use-case-desc">Criar relatórios semanais em minutos, resumir reuniões automaticamente e gerar documentação técnica completa.</p>
+                    <div class="use-case-tools">
+                        <span class="tool-tag">ChatGPT</span>
+                        <span class="tool-tag">Claude</span>
+                        <span class="tool-tag">Gemini</span>
+                    </div>
+                    <div class="use-case-benefit">
+                        <span class="benefit-icon">⚡</span>
+                        <span>Economiza 5-8 horas por semana</span>
+                    </div>
                 </div>
-                <div class="insight-chart">
-                    <canvas id="competenceChart"></canvas>
-                </div>
-            </div>
 
-            <!-- Eficiência Section -->
-            <div class="insight-section">
-                <div class="insight-content">
-                    <div class="insight-tag">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 3h18v18H3zM7 7h10M7 12h10M7 17h7"/>
+                        </svg>
+                    </div>
+                    <h3>Análise de Dados</h3>
+                    <p class="use-case-desc">Analisar planilhas complexas, identificar padrões e gerar insights de negócio sem precisar ser expert em Excel.</p>
+                    <div class="use-case-tools">
+                        <span class="tool-tag">Gemini</span>
+                        <span class="tool-tag">Copilot</span>
+                        <span class="tool-tag">ChatGPT</span>
+                    </div>
+                    <div class="use-case-benefit">
+                        <span class="benefit-icon">⚡</span>
+                        <span>Reduz tempo de análise em 70%</span>
+                    </div>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M12 2L2 7l10 5 10-5-10-5z"/>
                             <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
                         </svg>
-                        <span>EFICIÊNCIA</span>
                     </div>
-                    <h2 class="insight-title">
-                        Compare economia de <span class="gradient-text">tempo por equipe</span>
-                    </h2>
-                    <p class="insight-description">
-                        Avalie como a adoção de IA impacta a eficiência da equipe combinando detecção de uso passivo com pesquisas de usuários. Avalie se as equipes estão maximizando o valor que podem obter das soluções de IA disponíveis e forneça suporte de habilitação onde for mais eficaz.
-                    </p>
-                    <ul class="insight-bullets">
-                        <li>Quantifique ganhos de produtividade</li>
-                        <li>Identifique times que precisam de treinamento</li>
-                        <li>Justifique investimentos com dados concretos</li>
-                    </ul>
+                    <h3>Automação de Tarefas</h3>
+                    <p class="use-case-desc">Automatizar respostas de email, criar templates personalizados e gerar conteúdo para redes sociais.</p>
+                    <div class="use-case-tools">
+                        <span class="tool-tag">ChatGPT</span>
+                        <span class="tool-tag">Zapier + IA</span>
+                        <span class="tool-tag">Make</span>
+                    </div>
+                    <div class="use-case-benefit">
+                        <span class="benefit-icon">⚡</span>
+                        <span>Elimina tarefas repetitivas</span>
+                    </div>
                 </div>
-                <div class="insight-chart">
-                    <canvas id="efficiencyChart"></canvas>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                        </svg>
+                    </div>
+                    <h3>Edição e Revisão</h3>
+                    <p class="use-case-desc">Revisar textos, melhorar clareza, ajustar tom e corrigir erros gramaticais em segundos.</p>
+                    <div class="use-case-tools">
+                        <span class="tool-tag">Grammarly</span>
+                        <span class="tool-tag">ChatGPT</span>
+                        <span class="tool-tag">Claude</span>
+                    </div>
+                    <div class="use-case-benefit">
+                        <span class="benefit-icon">⚡</span>
+                        <span>Melhora qualidade em 40%</span>
+                    </div>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M9 9h6v6H9z"/>
+                        </svg>
+                    </div>
+                    <h3>Apresentações</h3>
+                    <p class="use-case-desc">Criar slides profissionais, gerar conteúdo visual e estruturar apresentações completas em minutos.</p>
+                    <div class="use-case-tools">
+                        <span class="tool-tag">Gamma</span>
+                        <span class="tool-tag">Canva AI</span>
+                        <span class="tool-tag">ChatGPT</span>
+                    </div>
+                    <div class="use-case-benefit">
+                        <span class="benefit-icon">⚡</span>
+                        <span>Reduz tempo de criação em 80%</span>
+                    </div>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>Pesquisa e Aprendizado</h3>
+                    <p class="use-case-desc">Pesquisar informações complexas, resumir artigos longos e aprender novos conceitos rapidamente.</p>
+                    <div class="use-case-tools">
+                        <span class="tool-tag">Perplexity</span>
+                        <span class="tool-tag">Claude</span>
+                        <span class="tool-tag">ChatGPT</span>
+                    </div>
+                    <div class="use-case-benefit">
+                        <span class="benefit-icon">⚡</span>
+                        <span>Acelera aprendizado em 3x</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Convencer seu Gestor Section -->
+    <section class="convince-section" id="convencer">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Guia Prático</span>
+                <h2 class="section-title">Como <span class="gradient-text">convencer seu gestor</span> a adotar IA</h2>
+                <p class="section-subtitle">
+                    Templates, argumentos e estratégias para apresentar a ideia de usar IA na sua empresa.
+                </p>
+            </div>
+
+            <div class="convince-grid">
+                <div class="convince-card">
+                    <div class="convince-number">1</div>
+                    <h3>Comece com um Piloto</h3>
+                    <p>Use a ferramenta por 2-3 semanas e documente os resultados. Mostre números concretos: tempo economizado, tarefas completadas, qualidade melhorada.</p>
+                    <div class="convince-tip">
+                        <strong>Dica:</strong> Meça antes e depois. Anote quanto tempo você gastava antes e quanto gasta agora.
+                    </div>
+                </div>
+
+                <div class="convince-card">
+                    <div class="convince-number">2</div>
+                    <h3>Prepare Argumentos de ROI</h3>
+                    <p>Calcule o valor gerado: se você economiza 5 horas por semana, isso representa X% de aumento de produtividade. Mostre o custo-benefício.</p>
+                    <div class="convince-tip">
+                        <strong>Exemplo:</strong> "Economizo 5h/semana. Com meu salário de R$ X, isso representa R$ Y de valor por mês."
+                    </div>
+                </div>
+
+                <div class="convince-card">
+                    <div class="convince-number">3</div>
+                    <h3>Apresente Casos de Sucesso</h3>
+                    <p>Pesquise casos de empresas similares que já adotaram IA com sucesso. Mostre que não é apenas uma tendência, mas uma realidade comprovada.</p>
+                    <div class="convince-tip">
+                        <strong>Fonte:</strong> Use dados de pesquisas recentes sobre adoção de IA no mercado.
+                    </div>
+                </div>
+
+                <div class="convince-card">
+                    <div class="convince-number">4</div>
+                    <h3>Aborde Preocupações de Segurança</h3>
+                    <p>Pesquise sobre políticas de privacidade das ferramentas e apresente soluções. Muitas empresas já têm versões corporativas com segurança garantida.</p>
+                    <div class="convince-tip">
+                        <strong>Exemplo:</strong> "Microsoft Copilot já está integrado ao Office 365 com segurança corporativa."
+                    </div>
+                </div>
+
+                <div class="convince-card">
+                    <div class="convince-number">5</div>
+                    <h3>Proponha um Teste Controlado</h3>
+                    <p>Sugira começar com um pequeno grupo ou projeto específico. Isso reduz o risco percebido e permite validar os resultados antes de expandir.</p>
+                    <div class="convince-tip">
+                        <strong>Sugestão:</strong> "Podemos testar por 1 mês em um projeto piloto e avaliar os resultados."
+                    </div>
+                </div>
+
+                <div class="convince-card">
+                    <div class="convince-number">6</div>
+                    <h3>Ofereça-se para Treinar Outros</h3>
+                    <p>Mostre que você está disposto a compartilhar conhecimento e ajudar outros membros da equipe. Isso demonstra comprometimento e reduz a preocupação com adoção.</p>
+                    <div class="convince-tip">
+                        <strong>Proposta:</strong> "Posso criar um guia rápido e fazer uma apresentação para o time."
+                    </div>
                 </div>
             </div>
 
-            <!-- Governança Section -->
-            <div class="insight-section">
-                <div class="insight-content">
-                    <div class="insight-tag">
+            <div class="template-section">
+                <h3>Template de Email para seu Gestor</h3>
+                <div class="template-box">
+                    <div class="template-content">
+                        <p><strong>Assunto:</strong> Proposta de Implementação de IA para Aumentar Produtividade</p>
+                        <br>
+                        <p>Olá [Nome do Gestor],</p>
+                        <br>
+                        <p>Gostaria de compartilhar uma oportunidade que identifiquei para aumentar nossa produtividade usando ferramentas de IA.</p>
+                        <br>
+                        <p><strong>Contexto:</strong></p>
+                        <p>Nos últimos [X semanas], testei [Ferramenta] para [tarefa específica] e obtive os seguintes resultados:</p>
+                        <ul>
+                            <li>Economia de tempo: [X horas por semana]</li>
+                            <li>Melhoria na qualidade: [métrica específica]</li>
+                            <li>ROI estimado: [cálculo]</li>
+                        </ul>
+                        <br>
+                        <p><strong>Proposta:</strong></p>
+                        <p>Sugiro iniciarmos um projeto piloto de [duração] para validar esses resultados em escala maior. Estou disponível para apresentar mais detalhes e discutir como podemos implementar isso de forma segura e eficaz.</p>
+                        <br>
+                        <p>Atenciosamente,<br>[Seu Nome]</p>
+                    </div>
+                    <button class="btn btn-secondary" onclick="copyTemplate()">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
                         </svg>
-                        <span>GOVERNANÇA</span>
-                    </div>
-                    <h2 class="insight-title">
-                        Descubra todas as aplicações de IA <span class="gradient-text">em uso</span>
-                    </h2>
-                    <p class="insight-description">
-                        Encontre todas as ferramentas de IA, aprovadas ou não, e defina ou aplique políticas de dados e uso para cada uma. Discernimos entre licenças pessoais e empresariais, e orientamos os usuários para as aplicações aprovadas.
-                    </p>
-                    <ul class="insight-bullets">
-                        <li>Visibilidade completa de ferramentas em uso</li>
-                        <li>Controle de licenças e conformidade</li>
-                        <li>Redução de riscos de segurança</li>
-                    </ul>
-                </div>
-                <div class="governance-dashboard">
-                    <div class="governance-cards">
-                        <div class="governance-card">
-                            <div class="governance-label">Apps Autorizados</div>
-                            <div class="governance-value">42</div>
-                            <div class="governance-trend trend-up">12% ↑</div>
-                        </div>
-                        <div class="governance-card">
-                            <div class="governance-label">Apps Não Autorizados</div>
-                            <div class="governance-value">19</div>
-                            <div class="governance-trend trend-down">10% ↓</div>
-                        </div>
-                        <div class="governance-card">
-                            <div class="governance-label">Risco</div>
-                            <div class="governance-value">21%</div>
-                            <div class="governance-trend trend-down">15% ↓</div>
-                        </div>
-                    </div>
-                    <div class="governance-apps">
-                        <div class="governance-app-item">
-                            <div class="app-icon">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="ChatGPT">
-                            </div>
-                            <div class="app-info">
-                                <div class="app-name">ChatGPT</div>
-                                <div class="app-type">LLM</div>
-                            </div>
-                            <div class="app-status authorized">Autorizado</div>
-                            <div class="app-events">750 eventos</div>
-                        </div>
-                        <div class="governance-app-item">
-                            <div class="app-icon">
-                                <img src="images/midjourney-logo.png?v=2" alt="Midjourney">
-                            </div>
-                            <div class="app-info">
-                                <div class="app-name">Midjourney</div>
-                                <div class="app-type">Imagem</div>
-                            </div>
-                            <div class="app-status unauthorized">Não Autorizado</div>
-                            <div class="app-events">340 eventos</div>
-                        </div>
-                        <div class="governance-app-item">
-                            <div class="app-icon">
-                                <img src="images/claude-logo.png?v=10" alt="Claude">
-                            </div>
-                            <div class="app-info">
-                                <div class="app-name">Claude</div>
-                                <div class="app-type">LLM/Código</div>
-                            </div>
-                            <div class="app-status unauthorized">Não Autorizado</div>
-                            <div class="app-events">200 eventos</div>
-                        </div>
-                    </div>
+                        Copiar template
+                    </button>
                 </div>
             </div>
         </div>
@@ -347,6 +419,163 @@
                     <span class="ai-stat-icon">✓</span>
                     <span>Atualizações constantes</span>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como Implementar Section -->
+    <section class="implement-section" id="implementar">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Guia Passo a Passo</span>
+                <h2 class="section-title">Como <span class="gradient-text">implementar IA</span> na sua empresa</h2>
+                <p class="section-subtitle">
+                    Um guia prático para começar a usar IA no seu trabalho e expandir para toda a equipe.
+                </p>
+            </div>
+
+            <div class="implement-steps">
+                <div class="implement-step">
+                    <div class="step-header">
+                        <div class="step-number">1</div>
+                        <h3>Comece por Você</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Antes de propor para a empresa, teste você mesmo. Escolha uma ferramenta recomendada e use por pelo menos 2 semanas em tarefas reais do seu trabalho.</p>
+                        <div class="step-checklist">
+                            <div class="checklist-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 6L9 17l-5-5"/>
+                                </svg>
+                                <span>Escolha uma tarefa específica para automatizar</span>
+                            </div>
+                            <div class="checklist-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 6L9 17l-5-5"/>
+                                </svg>
+                                <span>Meça o tempo antes e depois</span>
+                            </div>
+                            <div class="checklist-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 6L9 17l-5-5"/>
+                                </svg>
+                                <span>Documente os resultados com exemplos concretos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="implement-step">
+                    <div class="step-header">
+                        <div class="step-number">2</div>
+                        <h3>Prepare Seus Argumentos</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Reúna evidências do seu teste: tempo economizado, qualidade melhorada, exemplos de antes e depois. Calcule o ROI pessoal e projete para a equipe.</p>
+                        <div class="step-example">
+                            <strong>Exemplo de cálculo:</strong>
+                            <p>Se você economiza 5 horas por semana e sua hora custa R$ 100, isso representa R$ 2.000/mês de valor. Para uma equipe de 10 pessoas, seriam R$ 20.000/mês.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="implement-step">
+                    <div class="step-header">
+                        <div class="step-number">3</div>
+                        <h3>Apresente ao Seu Gestor</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Use o template de email ou agende uma reunião. Foque nos resultados, não na tecnologia. Mostre o problema que resolve e o valor que gera.</p>
+                        <div class="step-tips">
+                            <strong>Dicas para a apresentação:</strong>
+                            <ul>
+                                <li>Comece com o problema, não com a solução</li>
+                                <li>Mostre exemplos visuais (antes/depois)</li>
+                                <li>Proponha um teste controlado, não uma implementação completa</li>
+                                <li>Ofereça-se para treinar outros</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="implement-step">
+                    <div class="step-header">
+                        <div class="step-number">4</div>
+                        <h3>Inicie um Projeto Piloto</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Se aprovado, comece pequeno. Escolha um projeto específico ou um pequeno grupo para testar. Defina métricas claras e um prazo para avaliação.</p>
+                        <div class="step-checklist">
+                            <div class="checklist-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 6L9 17l-5-5"/>
+                                </svg>
+                                <span>Defina objetivos claros e mensuráveis</span>
+                            </div>
+                            <div class="checklist-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 6L9 17l-5-5"/>
+                                </svg>
+                                <span>Estabeleça um prazo (ex: 1 mês)</span>
+                            </div>
+                            <div class="checklist-item">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 6L9 17l-5-5"/>
+                                </svg>
+                                <span>Documente tudo: sucessos e desafios</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="implement-step">
+                    <div class="step-header">
+                        <div class="step-number">5</div>
+                        <h3>Compartilhe Conhecimento</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Se o piloto for bem-sucedido, compartilhe o conhecimento. Crie um guia rápido, faça uma apresentação para o time e esteja disponível para ajudar.</p>
+                        <div class="step-tips">
+                            <strong>O que incluir no guia:</strong>
+                            <ul>
+                                <li>Como acessar a ferramenta</li>
+                                <li>Casos de uso mais comuns</li>
+                                <li>Dicas e truques que você aprendeu</li>
+                                <li>Exemplos práticos do seu trabalho</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="implement-step">
+                    <div class="step-header">
+                        <div class="step-number">6</div>
+                        <h3>Expanda Gradualmente</h3>
+                    </div>
+                    <div class="step-content">
+                        <p>Com base nos resultados do piloto, proponha a expansão. Mostre os números, os casos de sucesso e como isso pode beneficiar toda a organização.</p>
+                        <div class="step-example">
+                            <strong>Métricas para apresentar:</strong>
+                            <ul>
+                                <li>Tempo economizado por pessoa</li>
+                                <li>Melhoria na qualidade do trabalho</li>
+                                <li>ROI calculado</li>
+                                <li>Feedback dos participantes do piloto</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="implement-cta">
+                <h3>Pronto para começar?</h3>
+                <p>Descubra qual IA é ideal para você e receba um guia completo de implementação.</p>
+                <a href="#diagnostico" class="btn btn-primary">
+                    Fazer diagnóstico
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
             </div>
         </div>
     </section>
@@ -667,10 +896,10 @@
     <section class="blog-section" id="blog">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Insights</span>
-                <h2 class="section-title">Entenda a <span class="gradient-text">revolução silenciosa</span></h2>
+                <span class="section-tag">Guias Práticos</span>
+                <h2 class="section-title">Aprenda como usar IA <span class="gradient-text">no seu trabalho</span></h2>
                 <p class="section-subtitle">
-                    Artigos aprofundados sobre como a IA está transformando o mercado — e o que você precisa saber.
+                    Artigos práticos com casos de uso reais, dicas e estratégias para implementar IA no seu dia a dia.
                 </p>
             </div>
             
@@ -692,12 +921,12 @@
                                     7 min de leitura
                                 </span>
                             </div>
-                            <h3 class="blog-title">A Grande Ilusão da IA: Por Que 95% dos Investimentos Bilionários Estão Rendendo Retorno Zero</h3>
-                            <p class="blog-excerpt">A euforia em torno da IA Generativa levou empresas a um frenesi de investimentos. Por trás dos demos impressionantes, esconde-se uma realidade chocante.</p>
+                            <h3 class="blog-title">Como usar ChatGPT para criar relatórios 10x mais rápido</h3>
+                            <p class="blog-excerpt">Guia prático com prompts prontos, templates e exemplos reais de como profissionais estão economizando horas criando relatórios profissionais.</p>
                             <div class="blog-topics">
-                                <span>Divisão GenAI</span>
-                                <span>ROI</span>
-                                <span>Métricas</span>
+                                <span>ChatGPT</span>
+                                <span>Produtividade</span>
+                                <span>Templates</span>
                             </div>
                         </div>
                     </a>
@@ -720,11 +949,12 @@
                                     5 min de leitura
                                 </span>
                             </div>
-                            <h3 class="blog-title">A Corrida Desordenada da IA: O Viés de Investimento e o "Gap de Aprendizado"</h3>
-                            <p class="blog-excerpt">A pressão para "fazer algo" com IA tem levado empresas a desperdiçar capital e perder os verdadeiros ganhos de eficiência.</p>
+                            <h3 class="blog-title">5 ferramentas de IA que todo profissional deveria conhecer</h3>
+                            <p class="blog-excerpt">Descubra as ferramentas mais úteis para diferentes áreas e aprenda quando usar cada uma delas no seu trabalho diário.</p>
                             <div class="blog-topics">
-                                <span>Learning Gap</span>
-                                <span>Build vs Buy</span>
+                                <span>Ferramentas</span>
+                                <span>Comparação</span>
+                                <span>Guia</span>
                             </div>
                         </div>
                     </a>
@@ -747,11 +977,12 @@
                                     5 min de leitura
                                 </span>
                             </div>
-                            <h3 class="blog-title">Ameaça e Oportunidade: O Custo de Ficar para Trás e o Imperativo do Reskilling</h3>
-                            <p class="blog-excerpt">A janela para cruzar a Divisão GenAI está se fechando. A falta de adaptação não levará apenas à ineficiência.</p>
+                            <h3 class="blog-title">Como convencer seu chefe a adotar IA: guia prático</h3>
+                            <p class="blog-excerpt">Templates de email, argumentos de ROI e estratégias comprovadas para apresentar a ideia de usar IA na sua empresa.</p>
                             <div class="blog-topics">
-                                <span>Reskilling</span>
-                                <span>Frontier Firms</span>
+                                <span>Implementação</span>
+                                <span>ROI</span>
+                                <span>Templates</span>
                             </div>
                         </div>
                     </a>
@@ -774,11 +1005,12 @@
                                     10 min de leitura
                                 </span>
                             </div>
-                            <h3 class="blog-title">O Paradoxo da IA Empresarial: Por Que Bilhões em Investimento Podem Estar "Voando às Cegas"</h3>
-                            <p class="blog-excerpt">Executivos estão financiando a maior transformação da força de trabalho da história sem infraestrutura de inteligência.</p>
+                            <h3 class="blog-title">Casos de uso reais: como colegas estão usando IA no trabalho</h3>
+                            <p class="blog-excerpt">Exemplos práticos de profissionais que multiplicaram sua produtividade usando IA em diferentes áreas: marketing, vendas, operações e mais.</p>
                             <div class="blog-topics">
-                                <span>CIO</span>
-                                <span>Medição</span>
+                                <span>Casos de Uso</span>
+                                <span>Exemplos</span>
+                                <span>Produtividade</span>
                             </div>
                         </div>
                     </a>
@@ -791,8 +1023,8 @@
     <section class="cta-section">
         <div class="container">
             <div class="cta-content">
-                <h2>Não espere pela sua empresa.</h2>
-                <p>Enquanto decisões corporativas levam meses, você pode começar a multiplicar sua produtividade hoje.</p>
+                <h2>Comece hoje e mostre resultados na sua empresa</h2>
+                <p>Descubra qual IA é ideal para você, use por 2 semanas e apresente os resultados ao seu gestor com dados concretos.</p>
                 <a href="#diagnostico" class="btn btn-primary btn-large">
                     Descobrir minha IA ideal
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -812,13 +1044,14 @@
                         <span class="logo-icon">◈</span>
                         <span class="logo-text">AI<span class="logo-accent">Catalyst</span></span>
                     </a>
-                    <p>Acelerando a adoção inteligente de IA para profissionais que não querem ficar para trás.</p>
+                    <p>Ajudando profissionais a descobrir e implementar IA no trabalho, começando por eles mesmos.</p>
                 </div>
                 <div class="footer-links">
                     <div class="footer-column">
                         <h4>Navegação</h4>
                         <a href="#diagnostico">Diagnóstico</a>
-                        <a href="#insights">Insights</a>
+                        <a href="#casos-uso">Casos de Uso</a>
+                        <a href="#implementar">Como Implementar</a>
                         <a href="#blog">Blog</a>
                     </div>
                     <div class="footer-column">
@@ -851,288 +1084,6 @@
         </div>
     </div>
 
-    <script>
-        // Configuração dos gráficos
-        Chart.defaults.color = '#9CA3AF';
-        Chart.defaults.borderColor = '#374151';
-        Chart.defaults.font.family = "'Outfit', sans-serif";
-
-        // Gráfico 1: Descoberta - Donut Chart
-        const discoveryCtx = document.getElementById('discoveryChart');
-        if (discoveryCtx) {
-            const discoveryChart = new Chart(discoveryCtx, {
-                type: 'doughnut',
-                data: {
-                    labels: ['Knowledge & Research', 'Writing & Communication', 'Analysis & Decision Support', 'Creative & Ideation', 'Coding & Technical Tasks', 'Admin & Ops Automation'],
-                    datasets: [{
-                        data: [28, 22, 18, 14, 12, 6],
-                        backgroundColor: [
-                            '#A78BFA',
-                            '#F59E0B',
-                            '#34D399',
-                            '#EC4899',
-                            '#3B82F6',
-                            '#6B7280'
-                        ],
-                        borderWidth: 0,
-                        spacing: 2
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: true,
-                    plugins: {
-                        legend: {
-                            display: true,
-                            position: 'bottom',
-                            labels: {
-                                usePointStyle: true,
-                                padding: 12,
-                                color: '#9CA3AF',
-                                font: {
-                                    size: 11
-                                },
-                                boxWidth: 8,
-                                boxHeight: 8
-                            }
-                        },
-                        tooltip: {
-                            enabled: false
-                        }
-                    },
-                    interaction: {
-                        mode: null,
-                        intersect: false
-                    },
-                    cutout: '65%'
-                }
-            });
-            
-            // Reorganizar legenda em duas colunas após o gráfico ser renderizado
-            setTimeout(() => {
-                const chartContainer = discoveryCtx.closest('.insight-chart');
-                if (chartContainer) {
-                    // Procurar pela legenda do Chart.js
-                    const legendContainer = chartContainer.querySelector('div');
-                    if (legendContainer) {
-                        const legendList = legendContainer.querySelector('ul');
-                        if (legendList) {
-                            legendList.style.display = 'flex';
-                            legendList.style.flexWrap = 'wrap';
-                            legendList.style.maxWidth = '100%';
-                            legendList.style.justifyContent = 'center';
-                            legendList.style.padding = '0';
-                            legendList.style.margin = '12px auto 0';
-                            
-                            const legendItems = legendList.querySelectorAll('li');
-                            legendItems.forEach((item) => {
-                                item.style.flex = '0 0 50%';
-                                item.style.maxWidth = '50%';
-                                item.style.boxSizing = 'border-box';
-                                item.style.display = 'flex';
-                                item.style.alignItems = 'center';
-                                item.style.justifyContent = 'flex-start';
-                                item.style.padding = '6px 12px';
-                            });
-                        }
-                    }
-                }
-            }, 200);
-        }
-
-        // Gráfico 2: Competência - Line Chart
-        const competenceCtx = document.getElementById('competenceChart');
-        if (competenceCtx) {
-            new Chart(competenceCtx, {
-                type: 'line',
-                data: {
-                    labels: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun'],
-                    datasets: [{
-                        label: 'Finance',
-                        data: [45, 52, 48, 58, 62, 68],
-                        borderColor: '#A78BFA',
-                        backgroundColor: 'rgba(167, 139, 250, 0.1)',
-                        tension: 0.5,
-                        fill: false,
-                        pointBackgroundColor: '#A78BFA',
-                        pointBorderColor: '#1F2937',
-                        pointBorderWidth: 2,
-                        pointRadius: 5
-                    }, {
-                        label: 'Marketing',
-                        data: [30, 38, 42, 40, 48, 52],
-                        borderColor: '#34D399',
-                        backgroundColor: 'rgba(52, 211, 153, 0.1)',
-                        tension: 0.6,
-                        fill: false,
-                        pointBackgroundColor: '#34D399',
-                        pointBorderColor: '#1F2937',
-                        pointBorderWidth: 2,
-                        pointRadius: 5
-                    }, {
-                        label: 'Engineering',
-                        data: [20, 25, 22, 28, 32, 35],
-                        borderColor: '#3B82F6',
-                        backgroundColor: 'rgba(59, 130, 246, 0.1)',
-                        tension: 0.4,
-                        fill: false,
-                        pointBackgroundColor: '#3B82F6',
-                        pointBorderColor: '#1F2937',
-                        pointBorderWidth: 2,
-                        pointRadius: 5
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: true,
-                    interaction: {
-                        mode: null,
-                        intersect: false
-                    },
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: 'AI Maturity Score por Departamento',
-                            color: '#E8ECF3',
-                            font: {
-                                size: 14,
-                                weight: 600
-                            },
-                            padding: {
-                                bottom: 20
-                            }
-                        },
-                        legend: {
-                            display: true,
-                            position: 'bottom',
-                            labels: {
-                                usePointStyle: true,
-                                padding: 15,
-                                color: '#9CA3AF'
-                            }
-                        },
-                        tooltip: {
-                            enabled: false
-                        }
-                    },
-                    scales: {
-                        y: {
-                            beginAtZero: true,
-                            max: 80,
-                            grid: {
-                                color: '#374151',
-                                drawBorder: false
-                            },
-                            ticks: {
-                                color: '#9CA3AF',
-                                stepSize: 20
-                            }
-                        },
-                        x: {
-                            grid: {
-                                display: false
-                            },
-                            ticks: {
-                                color: '#9CA3AF'
-                            }
-                        }
-                    }
-                }
-            });
-        }
-
-        // Gráfico 3: Eficiência - Stacked Bar Chart
-        const efficiencyCtx = document.getElementById('efficiencyChart');
-        if (efficiencyCtx) {
-            new Chart(efficiencyCtx, {
-                type: 'bar',
-                data: {
-                    labels: ['Sales', 'Engineering', 'Marketing', 'Finance'],
-                    datasets: [{
-                        label: 'Baixo Uso de IA',
-                        data: [2.5, 0.5, 1, 3],
-                        backgroundColor: '#F59E0B',
-                        borderWidth: 0,
-                        borderRadius: [8, 0, 0, 0]
-                    }, {
-                        label: 'Alto Uso de IA',
-                        data: [0, 7, 4.5, 6],
-                        backgroundColor: '#34D399',
-                        borderWidth: 0,
-                        borderRadius: {
-                            topLeft: 8,
-                            topRight: 8,
-                            bottomLeft: 0,
-                            bottomRight: 0
-                        }
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: true,
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: 'Tempo Economizado por Semana',
-                            color: '#E8ECF3',
-                            font: {
-                                size: 14,
-                                weight: 600
-                            },
-                            padding: {
-                                bottom: 20
-                            }
-                        },
-                        legend: {
-                            display: true,
-                            position: 'bottom',
-                            labels: {
-                                usePointStyle: true,
-                                padding: 15,
-                                color: '#9CA3AF'
-                            }
-                        },
-                        tooltip: {
-                            enabled: false
-                        }
-                    },
-                    interaction: {
-                        mode: null,
-                        intersect: false
-                    },
-                    scales: {
-                        x: {
-                            stacked: true,
-                            grid: {
-                                display: false
-                            },
-                            ticks: {
-                                color: '#9CA3AF'
-                            }
-                        },
-                        y: {
-                            stacked: true,
-                            beginAtZero: true,
-                            max: 12,
-                            title: {
-                                display: true,
-                                text: 'Horas',
-                                color: '#9CA3AF'
-                            },
-                            grid: {
-                                color: '#374151',
-                                drawBorder: false
-                            },
-                            ticks: {
-                                color: '#9CA3AF',
-                                stepSize: 3
-                            }
-                        }
-                    }
-                }
-            });
-        }
-    </script>
     
     <!-- Parallax Effect for Fixed Orbs -->
     <script>
