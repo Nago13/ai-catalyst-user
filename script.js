@@ -442,35 +442,3 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(el);
     });
 });
-
-// ========================================
-// Copy Template Function
-// ========================================
-function copyTemplate() {
-    const templateContent = document.querySelector('.template-content');
-    if (!templateContent) return;
-    
-    const text = templateContent.textContent;
-    
-    navigator.clipboard.writeText(text).then(() => {
-        const button = document.querySelector('.template-box button');
-        const originalText = button.innerHTML;
-        button.innerHTML = `
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M20 6L9 17l-5-5"/>
-            </svg>
-            Copiado!
-        `;
-        button.style.background = 'var(--gradient-primary)';
-        button.style.color = 'white';
-        
-        setTimeout(() => {
-            button.innerHTML = originalText;
-            button.style.background = '';
-            button.style.color = '';
-        }, 2000);
-    }).catch(err => {
-        console.error('Erro ao copiar:', err);
-        alert('Não foi possível copiar. Tente selecionar o texto manualmente.');
-    });
-}
